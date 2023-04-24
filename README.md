@@ -4,7 +4,7 @@ A simple typescript project starter command line tool.
 ## Installation :zap:
 Globally install the cli tool using:
 ```console
-npm install -g typescript-starter
+npm install -g quick-typescript-starter
 ```
 
 ## Generate Project :gear:

@@ -1,12 +1,12 @@
 {
   "name": "quick-typescript-starter",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Typescript project starter command line tool",
   "main": "starter.js",
-  "homepage": "https://github.com/Doth-J/typescript-starter",
+  "homepage": "https://github.com/Doth-J/quick-typescript-starter",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Doth-J/typescript-starter"
+    "url": "https://github.com/Doth-J/quick-typescript-starter"
   },
   "scripts": {
     "test": "ts-node src/starter.ts",
