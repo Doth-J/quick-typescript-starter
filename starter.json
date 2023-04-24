@@ -1,0 +1,35 @@
+{
+"package":{
+    "name": "",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "init":"npm install && npx tsc --init",
+      "test":"ts-node src/index.ts",
+      "build": "tsc",
+      "start":"node build/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "",
+    "devDependencies": {
+      "@types/node": "^18.16.0",
+      "ts-node": "^10.9.1",
+      "typescript": "^5.0.4"
+    }
+  },
+  "tsconfig":{
+      "compilerOptions": {
+         "strict": true,
+         "target": "ES2016",
+         "module": "CommonJS",
+         "rootDir": "src",
+         "outDir": "build",
+         "allowSyntheticDefaultImports": true,
+         "esModuleInterop": true,
+         "forceConsistentCasingInFileNames": true,
+         "skipLibCheck": true
+      }
+  }
+}
